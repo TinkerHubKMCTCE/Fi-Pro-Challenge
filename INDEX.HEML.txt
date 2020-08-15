@@ -1,8 +1,0 @@
-<html>
-<head>
-<title> Fi Pro Challenge</title>
-</head>
-<body>
-Lets Begin The Challenge
-</body>
-</html>
