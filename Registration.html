@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <title>FORM</title>
+        <caption><h1>Registration Form</h1></caption>
+        <body bgcolor=silver>
+            <form>
+                <label>First Name:</label>
+                <input type="text" placeholder="First Name" required>
+                <label>Last Name:</label>
+                <input type="text"  placeholder="Last Name" required>
+                <br><br>
+                <label>Email:</label>
+                <input type="email" placeholder="Email" required>
+                <label>Password:</label>
+                <input type="password" placeholder="Password" required>
+                <br><br>
+                <label>Gender:</label>
+                <label for="male">Male</label>
+                <input id="male" name="gender" type="radio" required>
+                <label for="female">Female</label>
+                <input id="female" name="gender" type="radio" required>
+                <br><br>
+                <label>DOB:</label>
+                <select name="month">
+                    <option value="month">Month</option>
+                    <option value="january">january</option>
+                    <option value="febrauary">february</option>
+                    <option value="march">march</option>
+                    <option value="april">april</option>
+                    <option value="may">may</option>
+                    <option value="june">june</option>
+                    <option value="july">july</option>
+                    <option value="august">august</option>
+                    <option value="september">september</option>
+                    <option value="october">october</option>
+                    <option value="november">november</option>
+                    <option value="december">december</option>
+                </select>
+                <select name="days">
+                    <option value="days">Day</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                </select>
+                <select name="year">
+                    <option value="year">Year</option>
+                    <option value="1998">1998</option>
+                    <option value="1999">1999</option>
+                    <option value="2000">2000</option>
+                    <option value="2001">2001</option>
+                    <option value="2002">2002</option>
+                </select>
+                <br><br>
+                <label>Phone no:</label>
+                <select>
+                    <option>977</option>
+                    <option>978</option>
+                    <option>979</option>
+                </select>
+                <input type="Phone" placeholder="9956***" required> 
+                
+                <br><br>
+                <label>I agree with terms and conditions </label>
+                <input type="checkbox" required>
+                <br><br>
+                <input type="submit" value="submit" id="validate">
+                <input type="reset" value="clear">
+
+
+
+
+
+            </form>
+
+        </body>
+    </head>
+</html>
