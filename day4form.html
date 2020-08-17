@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>registration form</title>
+</head>
+<body bgcolor="cornsilk">
+	<center>
+	<h1><font color="crimson"><u>REGISTRATION FORM</u></font></h1><br>
+	<h3><marquee height="20" vspace="30" bgcolor="white">Fill up the registration form in order to access our website</marquee></h3><br><br>
+	<form>
+			<label for="FIRST NAME">FIRST NAME: </label>
+			<input id="FIRST NAME" type="text" name="FIRST NAME" placeholder="FIRST NAME" required=""><br><br>
+			<label for="LAST NAME">LAST NAME: </label>
+			<input id="LAST NAME" type="text" name="LAST NAME" placeholder="LAST NAME" required=""><br><br>
+		<div>	
+			<label for="Male">MALE </label>
+			<input type="radio" name="Gender" id="Male" value="Male" required="">
+			<label for="Female">FEMALE </label>
+			<input type="radio" name="Gender" id="Female" value="Female" required="">
+			<label for="Other">OTHER </label>
+			<input type="radio" name="Gender" id="Other" value="Other" required=""><br><br>
+		</div>
+		<div>
+			<label>EMAIL</label>
+			<input type="email" required > <br><br>
+		</div>
+		<div>
+			<label for="pass">Password (8 characters minimum):</label>
+			<input type="password" id="pass" name="password" minlength="8" required><br><br>
+		</div>
+		<div>
+			<label for="start"> BIRTHDAY: 
+			<input type="date" id="start" name="trip-start" value="." min="01-01-1970" max="">
+			</label><br><br>
+		</div>
+		<div>
+			<p>	I agree with the terms and conditions
+				<input type="checkbox" required=""><br>
+			</p>
+			<a href="">CLICK HERE TO READ THE TERMS AND CONDITIONS</a><br><br>
+		</div>
+		<input type="submit" value="submit">
+		<input type="reset" value="reset">
+	</form>
+	</center>
+	</body>
+</html>	
