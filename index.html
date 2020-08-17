@@ -2,23 +2,106 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PROFILE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">>
+  <title>register</title>
 </head>
-    <body>
-        <center>
-        <h1><b><u>MY PROFILE</u></b></h1>
-        <br><br>
-        <img src="https://lh3.googleusercontent.com/p5KbmtShBLB0g69WE_Di6cQWV-OvM4CnQuNXdq90aVRbMO_T6rFHOBnTOPB2Ft2p1mbQzgLTMb8NQ69hFZ0aSNRvqE2HRAglG1544dRu93Ij20IjiUKHpYjIRupWxMo0PwfxOdSPnA=w2400" height="300px" width="200px">
-        <h3><b><i>ROSHNI JOSEPH</i></b></h3>
-        <h4><b><i>B tech 3rd year CSE at KMCT Women's Engineering College </i></b></h4>
-        <p>
-            <b>
-                <i>
-                    I'm interested in programming and Web development.I also wanted to learn FULL STACK DEVELOPMENT.I hope "Tinker Hub" would help me in this journey.
-                </i>
-            </b>
-        </p>
-        </center>
-    </body>
+<body background="registerbgimg.jpg" width="100%" text="white"><br><br><br><br><br><br><br><br><br>
+<center>
+	<h1>REGISTRATION</h1>
+<form>
+	<table cellspacing="10">
+		<tr>
+			<td>
+				FIRST NAME:
+			</td>
+			<td>
+			<b><input type="text" placeholder="First Name" required name=""></b>
+			</td>
+        </tr>
+        <tr>
+			<td>
+				LAST NAME:
+			</td>
+			<td>
+				<input type="text" placeholder="Name" required name="">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				GENDER:
+			</td>
+			<td>
+				<input type="radio" name="Gender" required>MALE
+                <input type="radio" name="Gender" required>FEMALE
+                <input type="radio" name="Gender" required>OTHER
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label for="start">DATE OF BIRTH:
+			</td>
+			<td>
+				<input type="date" id="start" name="trip-start" value="." min="01-01-1970" max="" required >
+			</td>
+		</tr>
+		<tr>
+			<td>
+				EMAIL:
+			</td>
+			<td>
+				<input type="mail" placeholder="Email" required name="">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				PASSWORD:
+			</td>
+			<td>
+				<input type="password" placeholder="Password" required name="" minlength="1o">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				PHONE.NO:
+			</td>
+			<td>
+				<select>
+					<option>+91</option>
+					<option>0</option>
+					<option>987</option>
+					<option>980</option>
+					<option>981</option>
+					<option>982</option>
+					<option>983</option>
+				</select>
+				<input type"phone" placeholder="98********" required name="">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				I agree with the terms
+			</td>
+			<td>
+				<input type="checkbox" required="">
+				<a href="terms.html">click to view terms and conditions</a>
+			</td>
+		</tr>
+		<tr>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+		</tr>
+		<tr>
+			<td colspan="2" align="center">
+				<a href="login.html">
+				<input type="submit"  id="button">
+				</a>
+			</td>
+		</tr>
+	</table>
+</form>
+</center>
+</body>
 </html>
+
