@@ -1,0 +1,38 @@
+<html>
+<head>
+    <title>FORM</title>
+</head>
+<body>
+    <h2><u>Registration Form</u></h2
+    <form>
+        <label>First name:</label><br>
+        <input type="text" placeholder="Enter First Name" required><br>
+        <label>Last name:</label><br>
+        <input type="text" placeholder="Enter Last Name" required><br>
+        <label>Gender:</label><br>
+
+
+         <input type="radio" name="gender" required>
+         <label >Male</label>
+         <input type="radio" name="gender">
+         <label>Female</label>
+         <input type="radio" name="gender" >
+         <label>Other</label><br>
+
+         <label>Email:</label><br>
+         <input type="email" placeholder="Enter Email" required><br>
+        <label>Password:</label><br>
+        <input type="password" placeholder="Enter password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required><br>
+
+        <label>Birthday:</label><br>
+        <input type="date"><br>
+        
+
+        <input type="checkbox" >
+        <label> I agree with terms and conditions </label><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+    
+</body>
+</html>
