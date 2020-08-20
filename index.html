@@ -2,107 +2,162 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="style.css">
-  	<title>register</title> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="style2.css">
 </head>
-<body class="indexbg"><br><br><br><br><br><br><br><br><br>
-<center>
-	<h1>REGISTRATION</h1>
-<form>
-	<table cellspacing="10">
-		<tr>
-			<td>
-				FIRST NAME:
-			</td>
-			<td>
-			<b><input type="text" placeholder="First Name" required name=""></b>
-			</td>
-        </tr>
-        <tr>
-			<td>
-				LAST NAME:
-			</td>
-			<td>
-				<input type="text" placeholder="Name" required name="">
-			</td>
-		</tr>
-		<tr>
-			<td>
-				GENDER:
-			</td>
-			<td>
-				<input type="radio" name="Gender" required>MALE
-                <input type="radio" name="Gender" required>FEMALE
-                <input type="radio" name="Gender" required>OTHER
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<label for="start">DATE OF BIRTH:
-			</td>
-			<td>
-				<input type="date" id="start" name="trip-start" value="." min="01-01-1970" max="" required >
-			</td>
-		</tr>
-		<tr>
-			<td>
-				EMAIL:
-			</td>
-			<td>
-				<input type="mail" placeholder="Email" required name="">
-			</td>
-		</tr>
-		<tr>
-			<td>
-				PASSWORD:
-			</td>
-			<td>
-				<input type="password" placeholder="Password" required name="" minlength="1o">
-			</td>
-		</tr>
-		<tr>
-			<td>
-				PHONE.NO:
-			</td>
-			<td>
-				<select>
-					<option>+91</option>
-					<option>0</option>
-					<option>987</option>
-					<option>980</option>
-					<option>981</option>
-					<option>982</option>
-					<option>983</option>
-				</select>
-				<input type"phone" placeholder="98********" required name="">
-			</td>
-		</tr>
-		<tr>
-			<td>
-				I agree with the terms
-			</td>
-			<td>
-				<input type="checkbox" required="">
-				<a href="terms.html">click to view terms and conditions</a>
-			</td>
-		</tr>
-		<tr>
-			<td></td>
-		</tr>
-		<tr>
-			<td></td>
-		</tr>
-		<tr>
-			<td colspan="2" align="center">
-				<a href="login.html">
-				<input type="submit"  id="button">
-				</a>
-			</td>
-		</tr>
-	</table>
-</form>
-</center>
+<body>
+    <div class="homebg" id="home">
+        <ul class="menu">
+            <li><a href="#home">home</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#skill">skill</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+        <div class="herotext">
+            <h1 class="hey">Hey!! <br>I'm ROSHNI JOSEPH </h1>
+        </div>
+        <div class="social-icons">
+            <ul>
+                <li>
+                    <a href="https://github.com/Roshni-Joseph" target="_blank">
+                    <img src="githubimg.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://wa.me/918431459228" target="_blank">
+                    <img src="whatsapp.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://mail.google.com" target="_blank">
+                    <img src="gmail.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <img src="" alt="">
+                </li>
+            </ul>
+        </div>
+        
+    </div>
+    <div class="aboutbg" id="about">
+        <h1 class="abouth">about</h1>
+        <div class="about-description">
+            <div  class="description">
+                <h3 class="about">All about me!!</h3>
+                <h3>I'm Roshni Joseph.<br>Currently I'm doing my B.tech in KMCT CEW.<br>I'm really passionate about Web Designing.<br>Every one deserves to thrive.<br>I am one to explore the this world. </h3><br><br>
+                <h4 class="areu">ARE U ????</h4>
+            </div>
+            <img class="roshimg" src="roshni.jpg" height="400px" width="300px" alt="">
+        </div>
+            
+    </div>
+    <div class="skillimg" id="skill">
+        <h1 class="abouth">skills</h1>
+        <ul class="skill">
+            <li>python</li>
+            <li>html</li>
+            <li>css</li>
+            <li>java</li>
+        </ul>
+        <h1 class="project"><u>my project</u></h1>
+        <div class="prjt-sec">
+            <h3 class="botanica">--> A simple Web Pabe for BOTANICA</h3>
+            <h5 class="weblink">
+                <a href="https://kkn2kuidwdoxp2sddciu3w-on.drv.tw/www.botanica.com/" target="_blank">click to view the Web Page</a>
+            </h5>
+        </div>
+        
+    </div>
+    <div class="contactbg" id="contact">
+        <center>
+            <h1 class="registerh">CONTACT ME IF ANY QUERRIES</h1>
+        <form>
+            <table cellspacing="10">
+                <tr>
+                    <td>
+                        FIRST NAME:
+                    </td>
+                    <td>
+                    <input type="text" placeholder="First Name" required name="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        LAST NAME:
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Name" required name="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        GENDER:
+                    </td>
+                    <td>
+                        <input type="radio" name="Gender" required>MALE
+                        <input type="radio" name="Gender" required>FEMALE
+                        <input type="radio" name="Gender" required>OTHER
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="start">DATE OF BIRTH:
+                    </td>
+                    <td>
+                        <input type="date" id="start" name="trip-start" value="." min="01-01-1970" max="" required >
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        EMAIL:
+                    </td>
+                    <td>
+                        <input type="mail" placeholder="Email" required name="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        PHONE.NO:
+                    </td>
+                    <td>
+                        <select>
+                            <option>+91</option>
+                            <option>0</option>
+                            <option>987</option>
+                            <option>980</option>
+                            <option>981</option>
+                            <option>982</option>
+                            <option>983</option>
+                        </select>
+                        <input type"phone" placeholder="98********" required name="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        COMMENT:
+                    </td>
+                    <td>
+                    <textarea type="text" placeholder="Type your comment" required name=""></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <a href="login.html">
+                        <input class="submit" type="submit" value="send" id="button">
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </form>
+        </center>
+    </div>
 </body>
 </html>
-
