@@ -1,0 +1,34 @@
+body {
+    background: -webkit-linear-gradient(to right, #979dc7, #5bf1e5);
+    background: linear-gradient(to right, #d2e7cd, #6383c7);
+    min-height: 100%;
+    font-family:
+}
+
+.topnav {
+    background-color: rgb(24, 28, 85);
+    overflow: hidden;
+}
+
+.topnav a {
+        float: Right;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+.topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+.topnav a.active {
+                background-color: #b469aa;
+               color: white;
+            }
+ h2 {
+    color:black;
+  }
+p {
+    color:black;
+  }
