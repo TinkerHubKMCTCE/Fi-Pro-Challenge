@@ -1,0 +1,59 @@
+body{ 
+    background: #780206; /* fallback for old browsers */ background: -webkit-linear-gradient(to right, #061161, #780206); /* Chrome 10-25, Safari 5.1-6 */ background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+    min-height: 100%; 
+    font-family: sans-serif;
+ } 
+ .todo{ 
+     width:459px; 
+     height: 498px; 
+     margin-left: 450px; 
+     margin-top: 80px; 
+     background-color: #fff; 
+     border:5px solid #000000; 
+    } 
+.header{ 
+    height: 50px; 
+    font-size: 3rem; 
+    background-color: #061161; 
+    text-align: center; 
+    padding-bottom: 10px; 
+    display: block; 
+    border-bottom: 5px solid #000000; 
+} 
+span{ 
+    margin-right: 20px; color: #fff 
+} 
+.desc{ 
+    margin-top: -29.56px; 
+    height: 87%; 
+    margin-left: -40px; 
+} 
+.list{ 
+    font-size: 29px; 
+    list-style-type: none; 
+} 
+.list li{
+     float: left; 
+     width: 100%; 
+ } 
+ label{ 
+     padding:10px; 
+     float: left; 
+     width:90%; 
+} 
+.purple{ 
+    background-color: darkviolet; 
+    color: gainsboro; 
+} 
+.lite{ 
+    background-color: hotpink; 
+} 
+input[type="checkbox"] { 
+    position: relative; 
+    top: 14px; 
+    right: 20px; 
+    float: right; 
+} input[type="checkbox"]:checked+label { 
+    text-decoration: line-through; 
+    color: lawngreen; 
+}
