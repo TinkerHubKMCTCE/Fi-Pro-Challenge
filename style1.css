@@ -1,0 +1,52 @@
+
+#header{
+    background-color: cornflowerblue;
+    color: cornsilk;
+
+}
+a{
+    text-decoration: none ;
+    color: blue ;
+}
+h1{
+    margin: 0;
+}
+*{
+    background-color:;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-family: 'Open Sans', sans-serif;
+    
+
+}
+#container{
+    background-color:white;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+      
+
+}
+#header{
+    background-color: cornflowerblue;
+    color: honeydew;
+    text-align: center;
+   
+   
+}
+#content{
+    padding: 10px ;
+}
+
+}
+#main{
+    width: 600px;
+    float: right;
+    text-align: center;
+}
+#footer{
+    clear: both;
+    padding: 10px;
+    background-color: lawngreen;
+    color: black;
+    text-align:right ;
+}
