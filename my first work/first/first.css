@@ -1,0 +1,123 @@
+div1{
+
+    border:solid lavender 10px ;
+    margin:30px;
+    margin-right:px;
+    padding-left:50px;
+    padding-right:50px;
+    background-color:skyblue;
+    display:grid;
+    grid-template-rows:minmax(50px,25%) ;
+}
+div2{
+    
+    border:10px ;
+    margin:30px;
+    margin-right:px;
+    padding:;
+   
+    
+}
+class{
+order:solid lavender 10px ;
+    margin:30px;
+    margin-right:px;
+    padding-left:50px;
+    padding-right:50px;
+    display:grid;
+    grid-template-rows:minmax(50px,25%) ;
+}
+a{
+    text-decoration:none ;
+    color:white;
+    padding:2vw;
+    font-family:green serif;
+}
+li{
+    list-style-type:none ;
+    margin: 0 5vw;
+    font-size:3vh;
+}
+ul{
+    margin: 0px;
+    padding:05px;
+    display:flex;
+}
+body{
+    margin: 0;
+
+}
+nav{
+    width:100vw;
+    baground-color:green;
+}
+div5{
+   width:1700px; 
+    border:5px ;
+    margin:20px;
+    padding:5px;
+    margin-right:20px;
+    padding-left:10px;
+    padding-right:100px;
+    background-color:skyblue;
+    display:grid;
+    grid-template-rows:max(100px,25%) ;
+}
+div5{
+  
+    background-image: url("https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg")  ;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    height:50vh;
+
+}
+body{
+    background-image:url("https://i.pinimg.com/originals/c7/d9/e9/c7d9e976b4df9af7771decd27559282f.jpg" )  ;
+    height:100vh;
+    width=100vh;
+}
+h1{
+    border: 5px;
+    font-size: 72px;
+background: -webkit-linear-gradient(rgb(132, 23, 221), rgb(4, 142, 235));
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+button{
+    
+    height: 50px;
+    width:150px;
+    background:#ffeb3b ;
+    border:none;
+    border-radius: 25px;
+    color:#000
+   
+
+
+    
+}
+.search-field{
+    height:50px;
+    padding:5px;
+    border:none;
+    border-radius: 25px;
+    outline: none;
+}
+.next-btn:hover{
+    background:#ffc107;
+    cursor:pointer;
+}
+h4{
+    color:black;
+}
+a1{
+    color:blue;
+    cursor:pointer;
+}
+input{
+    cursor:pointer;
+}
