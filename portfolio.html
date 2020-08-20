@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viweport" content="width=device-width ,initial-scale=1">
+<title>PORTFOLIO LAYOUT</title>
+<link rel="stylesheet" type="text/css" href="style.css" >
+<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">"
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <style>
+        *{  margin:0; padding:0;}
+        .centerdiv{
+            height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+        }
+        a{
+            height:100px;
+            width:100px;
+            background-color: rgb(204, 191, 207);
+            border-radius:50px;
+            text-align:10px;
+            margin:10px;
+            line-height:110px;
+            box-shadow:1px 4px 2px 2px  #dcdde1;
+        }
+        a i{
+            transition: all 0.3s linear;
+        }
+        a:hover i{
+            transform:scale(1.4);
+        }
+        .fa-facebook{
+            color: #0097e6;
+        }
+        .fa-instagram{
+            color:#e84393;
+
+        }
+    </style>
+
+<body id="home">
+    <nav id="navbar">
+        <h2><a href="#home">SHILPA<span class="text-primary"> AJEESH M</span></a></h2>
+        <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <header id="showcase">
+        <div class="showcase-content">
+            <div class="container">
+                <h1>Welcome to my website</h1>
+                <a href="#about" class="btn">Click here</a>
+            </div>
+        </div>
+    </header>
+    <section id="about">
+        <div class="container">
+            <h2 class="about-heading">About<span class="text-primary" > Me</span></h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>myself</h3>
+                    <center>
+                    <div class="left-column">
+                        <div class="card">
+                            <img src=" https://lh3.googleusercontent.com/pw/ACtC-3dU9kak4G4LDOAYoLpb9L5NeZp67RTWgSyolCdZ7p8G8whYtWDYTXd_75U40fDL-6cYlTKGw2bQHJIO5awgBOHvBL5SRcAN-l1UThHnyBo0nhQA3vSrorztEJdxq5OHUirfrqCFwc6fe1D-qebqvxGP=w443-h588-no?authuser=0">
+                            <h3><p><b>NAME:SHILPA AJEESH.M</b></p></h3>
+                            <h3><p><b>EMAIL ID:shilpashil197@gmail.com</b></p></h3>
+                            <h3><p><b>INSTITUTION:KMCT CEW</b></p></h3>
+                            <h3><p><b>COURSE:COMPUTER SCICENCE & ENGINEERING</b></p></h3>
+                            <h3><p><b>SEMESTER:5</b></p></h3>
+                            <h3><p><b>BATCH:2018-22</b></p></h3>
+                            <h3><p><b>NATIONALITY:INDIAN</b></p></h3>
+                            <h3><p><b>DOB:16/02/2001</b></p></h3>        
+                        </div>
+                    </div>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Section:Contact -->
+    <section id="Contact" class="bg-light">
+        <center>        
+        <div class="container">
+            <h2>Feedback</h2>
+        <div class="form-container">
+            <div class="form-box"><br>
+                <h3>send me messages</h3>
+                <form>
+                    <div class="form-group">
+                        <label for="first-name">First Name</label>
+                        <input type="text" placeholder="Enter Your First Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" placeholder="Enter Your Last Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" placeholder="Enter Your Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea rows="1" placeholder="Message" ></textarea>
+                    </div>
+                    <input type="submit" value="send message" class="contact-btn" >
+                </form>
+            </div>
+        </div>
+        </div>
+        </center>
+    </section>
+
+<center>
+<div class="row">
+    <div class="left-column">
+        <div class="centerdiv">
+                <a href="https://www.facebook.com/profile.php?id=100026459491680">
+                    <i class="fa fa-2x fa-facebook"></i>
+                </a>
+                <a href="https://instagram.com/exo_____my__love?igshid=tgj8l4clujjj">
+                    <i class="fa fa-2x fa-instagram"></i>
+                </a>
+        </div>
+    </div>    
+</div>
+</center>
+</body>
+</head>
+</html>
