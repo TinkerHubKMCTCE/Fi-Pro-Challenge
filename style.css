@@ -1,0 +1,98 @@
+h2{
+    font-size: 50px;
+    font-weight: 500;
+    font-family: 'Rancho', cursive;
+    color: seashell;
+    position: relative;
+    left: 30px;
+ 
+}
+.ind{
+    position: relative;
+   font-size: 30px;
+   top:-80px;
+    margin-left:40px ;
+    left: 800px;
+    font-family: 'Passion One', cursive;
+    color: snow;
+  
+}
+.heading1{
+    margin: 0%;
+    background: #2980b9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #2c3e50, #2980b9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #2c3e50, #2980b9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: relative;
+    top: -42;
+    left: -10;
+
+    width: 1800;
+    height: 70px;
+}
+body{
+    background: #FC466B;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3F5EFB, #FC466B);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+min-height: 100%;
+font-family: sans-serif;
+}
+.todo{
+    width:459px;
+    height: 498px;
+    margin-left: 450px;
+    margin-top: 80px;
+    background-color: #fff;
+    border: 5px solid #161da8;
+}
+.header{
+    height: 50px;
+    font-size: 3rem;
+    border-color:#f5167a;
+    border-bottom: 5px solid #161da8;
+    background-color: #6d33b8;
+    text-align: center;
+    padding-bottom: 10px;
+    display: block;
+
+}
+span{
+    scroll-margin-right: 20px;
+    color: #fff;
+}
+.desc{
+    margin-top: -29.56px;
+    height: 87%;
+    margin-left: -40px;
+}
+.list{
+    font-size: 29px;
+    list-style: none;
+}
+.list li{
+    float: left;
+     width:100%;
+}
+label{
+    padding: 10px;
+    float: left;
+    width: 90%;
+
+}
+.pink{
+    background-color: #db6bd4;
+}
+.purple{
+    background-color: #c23cb9;
+}
+input[type="checkbox"]
+{
+    position: relative;
+    top:14px;
+    right:20px;
+    float: right;
+}
+input[type="checkbox"]:checked+label 
+{
+    text-decoration: line-through;
+    color: rgb(233, 12, 78);
+}
