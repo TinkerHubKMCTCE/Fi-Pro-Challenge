@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li, a, button {
+    font-family: 'Arvo', serif;
+    font-family: 'Russo One', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+
+}
+
+header {
+    font-family: 'Russo One', sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(56, 139, 0);
+    height: 5px;
+}
+
+h4 {
+    cursor: pointer;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    float: inline-start;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: all o.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: rgb(255, 255, 255);
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgb(255, 0, 85);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all o.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.wrapper {
+    margin-left: 100px;
+    margin-top: 200px;
+    background-color: rgb(255, 255, 255);
+    width: 1000px;
+    padding-top: 100px;
+}
+
+h1 {
+    font-size: 80px;
+    margin-top: 10%;
+    color: rgb(255, 0, 85);
+}
+
+.logo {
+    float: right;
+}
+
+.para1 {
+    font-size: 50px;
+}
+
+.table1 {
+    font-size: 50px;
+    margin-left: 100px;
+}
+
+.line1 {
+    width: 500px;
+    height: 10px;
+    background-color: rgb(255, 0, 85);
+}
+
+.para2 {
+    font-size: 50px;
+}
+
+span{
+    position: relative;
+    font-size: 30px;
+    bottom: 2000px;
+    left: 1300px;
+}
+
+.table {
+    width: 10px;
+    height: 1600px;
+    background-color: rgb(255, 0, 85);
+}
+
+.table2 {
+    margin-left: 600px;
+    margin-top: 200px;
+    background-color: rgb(255, 255, 255);
+    width: 1000px;
+    padding-top: 100px;
+    border-color: rgb(255, 0, 85);
+    font-size: 50px;
+}
+
+#form {
+    width: 2000px;
+    height: 1500px;
+    background-color: rgb(255, 0, 85);
+    margin-left: 2300px;
+    margin-top: -1500px;
+    font-size: 60px;
+}
+
+.para3 {
+    font-size: 80px;
+}
