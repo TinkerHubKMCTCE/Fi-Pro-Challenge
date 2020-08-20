@@ -1,0 +1,40 @@
+div{
+
+background-color: crimson;
+height: 30px;
+width: 300px;
+}
+.box1{
+    width: 200px;
+    height: 30px;
+    background-color: crimson;
+}
+.box2{
+    width: 300px;
+    height: 30px;
+    background-color: crimson;
+
+}
+#para1{
+   color: darkcyan;
+}
+#para2{
+    color: darkcyan;
+}
+#para3{
+    color: darkcyan;
+
+}
+div{
+
+    background-color: crimson;
+    height: 30px;
+    width: 300px;
+}
+h3{
+
+    font-size: 60px;
+    font-weight: 700;
+    font-family: 'Anton', sans-serif;
+}
+
