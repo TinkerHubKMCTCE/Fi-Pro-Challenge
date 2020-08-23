@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+    </head>
+        <body>
+            <h2>Registration Form</h2>
+              <form>
+                <label for="FirstName">First Name:</label>
+                <input id="FirstName" type="text" name="First Name" placeholder="First Name" required="">
+                <br><br>
+                <label for="LastName">Last Name:</label>
+                <input id="LastName" type="text" name="Last Name" placeholder="Last Name" required="">
+                <br>
+                <br>
+                    <label>Gender:</label>
+                    <label for ="male">Male</label>
+                    <input id="male" name="gender" type="radio" value="male" required="">
+                    <label for ="female">Female</label>
+                    <input id="female" name="gender" type="radio"  value="female" required="">
+                    <label for ="other">Other</label>
+                    <input id="other" name="gender" type="radio"  value="Other" required="">
+                    <br><br>
+                    <label for="start">Date Of Birthday:
+                        <input id="start"type="date" name="trip-start" value=""min="01-01-1950" max="" required="">
+                    </label>
+                    <br>
+                    <br>
+                    <label for="Email">Email Address:  
+                        <input id="email"type="email" name="email" placeholder="Email Address" required="">
+                    <br>
+                    <br>
+                </label> 
+                    <label for="Password">Password:
+                        <input id="Password"type="Password" name="Password" placeholder="Password" required="">
+                    </label>     
+                <p>
+                    <input type="checkbox" name="t&cc" value="t&c"required="" >I accept the terms and condition
+                </p>
+                <input type="submit" value="Submit">
+            </form>
+        </body>
+    </head>
+</html>
