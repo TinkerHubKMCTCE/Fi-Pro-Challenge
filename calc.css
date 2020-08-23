@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(182, 247, 144);
+    background-image: url(https://images.unsplash.com/photo-1559686475-c44247959fbc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+}
+#screen{
+    width: 27%;
+    margin-left: 36px;
+    height: 40px;
+    margin-top: 30px;
+    pointer-events: none;
+}
+.btn{
+    width: 60px;
+    height: 45px;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 20px;
+	background-color: #f1e5e5;
+}
+
+
+	
