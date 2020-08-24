@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <link href="calculator.css" rel="stylesheet">
+        <script src="calculator.js"> </script>
+    </head>
+    <body>
+        <div class="calc">
+            <div class="result">
+                <input type="text" id="screen">
+            </div> 
+            <div class="keyboard">
+                <div class="row">
+                <button class="empty" id="empty"></button>    
+                <button onclick="displayClear()" class="operator">C</button>
+                <button class="empty" id="empty"></button>
+                <button onclick="buttonClick('/')" class="operator">/</button> 
+                <button onclick="buttonClick(7)" class="number">7</button>
+                <button onclick="buttonClick(8)" class="number">8</button>
+                <button onclick="buttonClick(9)" class="number">9</button>
+                <button onclick="buttonClick('*')"class="operator">*</button>
+                <button onclick="buttonClick(4)" class="number">4</button>
+                <button onclick="buttonClick(5)"class="number">5</button>
+                <button onclick="buttonClick(6)"class="number">6</button>
+                <button onclick="buttonClick('+')" class="operator">+</button>
+                <button onclick="buttonClick(1)"class="number">1</button>
+                <button onclick="buttonClick(2)"class="number">2</button>
+                <button onclick="buttonClick(3)"class="number">3</button>
+                <button onclick="buttonClick('-')" class="operator">-</button>
+                <button class="empty" id="empty"></button>
+                <button onclick="buttonClick(0)"class="number">0</button>
+                <button onclick="buttonClick('.')" class="operator">.</button>
+                <button onClick="equalClick('=')" class="operator">=</button>
+            </div>
+        </div>
+    </body>
+</html>
