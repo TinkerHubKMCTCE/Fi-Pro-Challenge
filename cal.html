@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>calculator</title>
+        <link rel="stylesheet" href="cal.css">
+        <script src="cal.js"></script>
+    </head>
+    <body>
+        <div class="cal">
+            <div class="out">
+               <input type="text" id="screen">
+            </div>
+            <div class="button">
+                <div class="row">
+                    <button onclick="clr()" class="bn" style="color: rgb(13, 13, 14);">AC</button>
+                    
+
+                </div>
+                
+               <div class="row">
+                    <button onclick="BC(7)" class="btn" style="color: ghostwhite;">7</button>
+                    <button onclick="BC(8)" class="btn" style="color: ghostwhite;">8</button>
+                    <button onclick="BC(9)" class="btn" style="color: ghostwhite;">9</button>
+                    <button onclick="BC('*')" class="bt" style="color:  black;">X</button>
+                </div>
+                <div class="row">
+                    <button onclick="BC(4)" class="btn" style="color: ghostwhite;">4</button>
+                    <button onclick="BC(5)" class="btn" style="color: ghostwhite;">5</button>
+                    <button onclick="BC(6)" class="btn" style="color: ghostwhite;">6</button>
+                    <button onclick="BC('/')" class="bt" style="color:  black;">/</button>
+                </div>
+                <div class="row">
+                    <button onclick="BC(1)" class="btn" style="color: ghostwhite;">1</button>
+                    <button onclick="BC(2)" class="btn" style="color: ghostwhite;">2</button>
+                    <button onclick="BC(3)" class="btn" style="color: ghostwhite;">3</button>
+                    <button onclick="BC('+')" class="bt" style="color: black;">+</button>
+                </div>
+                <div class="row">
+                    <button onclick="BC(0)" class="btn" style="color: ghostwhite;">0</button>
+                    <button onclick="BC('.')" class="bt" style="color:  black;">.</button>
+                    <button onclick="rs('=')" class="bt" style="color:  black;">=</button>
+                    <button onclick="BC('-')" class="bt" style="color: black;">-</button>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </body>
+</html>
