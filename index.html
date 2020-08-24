@@ -1,25 +1,50 @@
-
-<html><head>
-    <title>amrutha</title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Simple Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
 </head>
-    <body>
-<h1><i>HELLO WORLD</i></h1><hr>
-<H2><u>HELLO WORLD</u></H2>
-<H3>HELLO WORLD</H3>
-<H4>HELLO WORLD</H4>
-<H5>HELLO WORLD</H5>
-<H6>HELLO WORLD</H6>
-<P>HGYFYFJKUUDDYHBNHGDTDR<b>TYYGHBHHGYTDTDYGHGHJDTJD</b>GYGKVHHDFGYS
-    GFJJDVBDVDFTFUDHGfaygydfuhcjhgvgcygyvggfygvyg<br>dvygjvhcjvggjcgjvgcgtuddggxgjzgzffuzfuzf
-    uzxftfdyjxgcgjhgxc</P>
-<p>rttr<del>yyfyyh</del>trgfsfsfsrsrsrsgffdttttffyfyfffyyuyuyufgfgfffygyyfttttffyygytttighjgjgkgkkggk
-    jhkjkhkhkhkhkhkhkuhuhkuhkuhkuhukhukhukhukyitititiyiuyiuyuyiuyuiyt7t6t6rtrttrftrtyrtrtr</p>
-<button>click here</button><br>
-<a href="http://google.com">google</a><br>
-<img src="sophia.jpg" width="120px" height="120px">
+<body>
+    <center>
+        <div class="main-body">
+            <div><h2>Simple Calculator</h2></div>
+            <div class="output">
+                <input type="text" id="screen">
 
-
-
+            </div>
+            <div class="buttons">
+                <button onclick="displayClear()" class="clr">C</button>
+            </div>
+            <div class="row">
+                <button onclick="buttonClick(7)" class="btn">7</button>
+                <button onclick="buttonClick(8)" class="btn">8</button>
+                <button onclick="buttonClick(9)" class="btn">9</button>
+                <button onclick="buttonClick('+')" class="add">+</button>
+            </div>
+            <div class="row">
+                <button onclick="buttonClick(4)" class="btn">4</button>
+                <button onclick="buttonClick(5)" class="btn">5</button>
+                <button onclick="buttonClick(6)" class="btn">6</button>
+                <button onclick="buttonClick('-')" class="neg">-</button>
+            </div>
+            <div class="row">
+                <button onclick="buttonClick(1)" class="btn">1</button>
+                <button onclick="buttonClick(2)" class="btn">2</button>
+                <button onclick="buttonClick(3)" class="btn">3</button>
+                <button onclick="buttonClick('*')" class="mul">x</button>
+            </div>
+            <div class="row">
+                <button onclick="buttonClick('.')" class="btn"><b>.</b></button>
+                <button onclick="buttonClick(0)" class="btn">0</button>
+                <button onclick="equalClick()" class="btn">=</button>
+                <button onclick="buttonClick('/')" class="by">/</button>
+            </div>
+        </div>
+    </center>
+    
 </body>
 </html>
-
