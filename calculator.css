@@ -1,0 +1,36 @@
+.calc{
+    width:400px;
+    height:550px;
+    background:lightcoral;
+    margin-left:700px;
+    margin-top:250px;
+}
+#screen{
+    width:80%;
+    height:40px;
+    margin-left: 36px;
+    margin-top: 30px;
+    pointer-events:none;
+
+}
+.btn{
+    width:60px;
+    height:45px;
+    margin-left: 30px;
+    margin-top: 30px;
+    background:purple;
+    cursor: pointer;
+    border:2px solid #B06AB3;
+    color:white;
+    outline: none;
+}
+.btn:hover{
+    background:#B06AB3;
+    border-color:purple;
+}
+h4{
+    color:purple;
+    margin-left:87px;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+}
