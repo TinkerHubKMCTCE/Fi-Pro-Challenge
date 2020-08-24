@@ -1,0 +1,156 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    -webkit-font-smoothing:antialised;
+}
+body{
+    line-height: 1.5;
+    color:white;
+    overflow-x: hidden;
+    background:#B06AB3 ;
+    font-family: 'Dancing Script', cursive;
+}
+header{
+    background:#FFAF7B;
+}
+.container{
+    max-width:1152px;
+    padding:0 15px;
+    margin:0 auto;
+}
+header nav .left a{
+    color:white;
+    text-decoration:none;
+    margin-right:2rem;
+    text-transform: uppercase;
+    transition:all .3s ease;
+}
+header nav .left a:hover{
+    color:#191654
+}
+header nav{
+    padding:2rem 0;
+}
+header nav .logo{
+    margin-right:2rem;
+}
+.image{
+    padding-left: 0%;
+}
+.image .right p{
+    color:#B06AB3;
+    font-size:1rem;
+    line-height:2 ;
+    margin-bottom:2rem ;
+    padding-left: 3rem;
+}
+.image .right h4{
+    font-size:1.5rem ;
+    margin-bottom:0.5rem ;
+    color:white;
+    padding-left: 3rem;
+
+}
+section{
+    padding:4rem 0;
+}
+section.about h1{
+    margin-bottom:1rem;
+    font-size:1.6rem;
+}
+section.about h1 span{
+    color: #FFAF7B;
+}
+section.about h3{
+    font-size:1rem;
+    margin-bottom:1rem;
+}
+section.about p{
+    line-height:2rem;
+}
+section.about.social a{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    border-radius:50%;
+    margin-right:0.5rem;
+}
+.image .right p span{
+    color: white;
+}
+.flex{
+    display:flex;
+}
+.items-center{
+    align-items: center;
+}
+.justify{
+    justify-content: space-between;
+}
+.btn{
+    padding:0.8rem 2rem;
+    border:2px solid #B06AB3;
+    outline:none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition:all .3s ease;
+}
+.btn-a{
+    background:#FFAF7B;
+    color:white;
+    font-family: 'Dancing Script', cursive;
+}
+.btn-a:hover{
+    background:#B06AB3;
+    border-color:#FFAF7B;
+}
+.btn-b{
+    background:transparent;
+    color:white;
+    font-family:'Dancing Script', cursive;;
+}
+.btn-b:hover{
+    background:#B06AB3;
+    border-color:#FFAF7B;
+    
+}
+.flex-1{
+    flex:1;
+}
+.justify-center{
+    justify-content: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
