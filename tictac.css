@@ -1,0 +1,23 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: ghostwhite;
+    margin-bottom: 5px;
+}
+.grid
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 610px;
+    width: 610px;
+    background-color: rgb(14, 13, 14);
+
+    
+}
+.playerX{
+    background-image:url('cross.jpeg')
+}
+.player0{
+        background-image:url('circle.jpeg')
+}
