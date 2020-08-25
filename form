@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <title>Registration Form</title>
+    <body>
+      <form>
+        <label>Full Name</label><input type="text" required="">
+        <br>
+        <label>Age</label><input type="number"required="">
+        <br>
+        <label>Email</label><input type="email"required="">
+        <br>
+        <label>password</label><input type="password"required="">
+        <br>
+        <label>DOB</label><input type="date"required="">
+        <br>
+        <label>Qualification</label>
+          <select>
+             <option>12</option>
+             <option>UG</option>
+             <option>PG</option>
+          </select>
+        <br>
+        <label>Gender:- </label>
+          <label for ="Male">Male</label>
+          <input id=Male" name="Gender" type="radio"required="">
+          <label for ="Female">Female</label>
+          <input id=Female" name="Gender" type="radio"required="">
+        <br>
+        <input type="submit">
+      </form>
+    </body>
+  </head>
+</html>
