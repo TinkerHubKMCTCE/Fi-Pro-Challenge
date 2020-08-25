@@ -1,0 +1,23 @@
+.grid div{
+    width: 200px;
+    height: 200px;
+    background-color:turquoise;
+    margin-bottom: 5px;
+
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 610px;
+    height: 610px;
+    background-color: black;
+
+
+}
+.playerX{
+    background-image:url('X.jpg') ;
+}
+.player0{
+    background-image:url('O.jpg') ;
+}
