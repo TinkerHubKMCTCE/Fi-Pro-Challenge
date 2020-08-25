@@ -1,12 +1,25 @@
-function displayClear(){
-    document.getElementById("screen").value=""
-}
-function buttonClick(val)
-{
-    document.getElementById("screen").value+=val;
-}
-function equalClick(){
-    var text=document.getElementById("screen").value
-    var result=eval(text)
-    document.getElementById("screen").value=result
-}
+document.addEventListener('DOMContentLoaded',() => {
+    const squares=document.querySelectorAll('.grid div')
+    const playerDisplay=document.querySelector('#player')
+    let currentPlayer='playerX'
+    squares.forEach(square => {
+        square.addEventListener('click',clickOutcome)
+    })
+    function clickOutcome(e){
+        const squareArray=Array.from(squares)
+        const index=squareArray.indexOf(e.target)
+        playerDisplay.innerHTML=currentPlayer
+        if(currentPlayer==='playerX'){
+            squares[index].classList.add('playerX')
+            currentPlayer='player0'
+        }else{
+            squares[index].classList.add('player0')
+            currentPlayer='playerX'
+        }
+    }
+
+})
+
+
+
+

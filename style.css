@@ -1,28 +1,20 @@
-.calc{
-    width: 400px;
-    height: 500px;
-    margin-top: 70px;
-    margin-left: 35%;
-    background: rgb(47, 48, 58);
+.grid div{
+    width:200px;
+    height:200px;
+    background-color:white;
+    margin-bottom: 5px;
 }
-#screen{
-   width: 350px;
-   margin: 25px;
-   height: 70px;
-   pointer-events: none;
-   font-size: 20px;
-   font-weight: bold;
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   padding: 5px;
+.grid{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    width:610px;
+    height:610px;
+    background-color: black;
 }
-.btn{
-    width: 60px;
-    height: 40px;
-    margin-left: 30px;
-    margin-top: 30px;
-    background: lemonchiffon;
+.playerX{
+    background-image:url('cross.jpeg')
 }
-.main-body{
-    background: -webkit-linear-gradient(to right, #eca72a, #e1eec3);
-    background: linear-gradient(to right, #eca72a, #e1eec3);
+.player0{
+    background-image:url('circle.jpeg')
 }
