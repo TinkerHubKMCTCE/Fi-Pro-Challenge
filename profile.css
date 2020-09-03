@@ -1,0 +1,169 @@
+h2{
+    font-size: 50px;
+    font-weight: 500;
+    font-family: 'Rancho', cursive;
+    color: seashell;
+    position: relative;
+    left: 30px;
+ 
+}
+span{
+    position: relative;
+   font-size: 30px;
+   top:-80px;
+    margin-left:40px ;
+    left: 900px;
+    font-family: 'Passion One', cursive;
+    color: snow;
+}
+
+.heading1{
+    margin: 0%;
+    position: relative;
+    background: #2980b9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #2c3e50, #2980b9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #2c3e50, #2980b9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 1520px;
+    left: -9px;
+    height: 70px;
+    top:-42px;
+}
+.body{
+    background-image: url(https://collegeinfogeek.com/wp-content/uploads/2019/02/online-portfolio-featured-image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    top: -42px;
+    width: 1520px;
+    left: -8px;
+    height: 800px;
+}
+.desc{
+    text-align: center;
+    width: 900px;
+    height: 700px;
+    background-color:rgb(0,0,0,0.5);
+    margin: auto;
+    color: #ffffff;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+    position: relative;
+    top: 80;
+}
+.pic{
+    position: relative;
+    left: -610;
+    top: 80px;
+}
+.para{
+    font-family: 'Cookie', cursive;
+   
+    font-weight: lighter;
+    font-size: 28px;
+    position: relative;
+    top: -400px;
+    color: cornsilk;
+
+}
+
+h1{
+    position: relative;
+    top: -410;
+    color: rgb(36, 118, 250);
+    font-size: 35px;
+}
+h3{
+    position: relative;
+    top: -395px;
+    left: -350px;
+    color: cornflowerblue;
+    font-size: 25px;
+
+}
+.list{
+    color: cornsilk;
+    font-size: 20px;
+    position: relative;
+    top: -450px;
+    left: -150px;
+    text-align: end;
+}
+.image{
+  text-align: left;
+  position: relative;
+  top: 60px;
+  left: -500px;
+}
+#edu{
+    color: cornflowerblue;
+    font-size: 25px;
+    left: -1370;
+    top: 60px;
+    font-weight: 100;
+}
+h4{
+    font-family: 'Cookie', cursive;
+    font-weight: lighter;
+    font-size: 28px;
+    position: relative;
+    top: -20px;
+    left: -980px;
+    color: cornsilk;
+
+}
+.image1{
+    text-align: left;
+    position: relative;
+    top: 0px;
+    left: -499px;
+
+}
+#nad{
+    font-family: 'Cookie', cursive;
+    font-weight: lighter;
+    font-size: 28px;
+    position: relative;
+    top: -80px;
+    left: -1075px;
+    color: cornsilk;
+
+}
+.image2{
+    text-align: left;
+    position: relative;
+    top: -60px;
+    left: -500px;
+}
+#st{
+    font-family: 'Cookie', cursive;
+    font-weight: lighter;
+    font-size: 28px;
+    position: relative;
+    top: -145px;
+    left: -970px;
+    color: cornsilk;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

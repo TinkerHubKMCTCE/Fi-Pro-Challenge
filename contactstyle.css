@@ -1,0 +1,414 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    font-size: 50px;
+    font-weight: 500;
+    font-family: 'Rancho', cursive;
+    color: seashell;
+    position: relative;
+    left: 30px;
+ 
+}
+span{
+    position: relative;
+   font-size: 30px;
+   top:-40px;
+    margin-left:40px ;
+    left: 900px;
+    font-family: 'Passion One', cursive;
+    color: snow;
+  
+}
+.heading1{
+    margin: 0%;
+    background: #2980b9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #2c3e50, #2980b9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #2c3e50, #2980b9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: relative;
+    top: -40px;
+    width: 100%;
+    height: 70px;
+}
+body{
+    background-image:url(https://image.freepik.com/free-vector/abstract-decorative-wallpaper_23-2148501874.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+    margin-top: 40px;
+
+}
+.contactform{
+    width: 900px;
+    background-color:rgb(0,0,0,0.5);
+    margin: auto;
+    color: #ffffff;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+}
+.desc{
+    width: 900px;
+    background-color:rgb(0,0,0,0.5);
+    margin:auto ;
+}
+form{
+    padding: 10px;
+}
+.class{
+    width: 100%;
+    height: 100px;
+}
+.heading{
+    margin-left: 25px;
+    margin-top: 30px;
+    width: 125px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+.fname{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+}
+.lname{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    border-radius: 7px;
+    padding: 0 22px;
+    font-size: 16px;
+}
+.flabel{
+    position: relative;
+    color: #E5E5E5;
+    text-transform: capitalize;
+    font-size: 14px;
+    left: -20px;
+    top: -6px;
+}
+.llabel{
+    position: relative;
+    color: #E5E5E5;
+    text-transform: capitalize;
+    font-size: 14px;
+    left: -20px;
+    top: -4.5px;
+
+}
+.age{
+    position: relative;
+    left: 200px;
+    top: -27px;
+    line-height: 30px;
+    width: min-content;
+    padding: 0px 22px;
+    font-size: 16px;
+}
+.agelabel{
+    position: relative;
+    color: #E5E5E5;
+    text-transform: capitalize;
+    font-size: 14px;
+    left:-19px;
+    top: -3px;
+
+}
+
+.male{
+    position: relative;
+    left: 200px;
+    top: -19px;
+    padding: 0 22px;
+
+}
+.female{
+    position: relative;
+    left: 300px;
+    top: -18.5px;
+    padding: 0 22px;
+
+}
+.other{
+    position: relative;
+    left: 400px;
+    top: -17.5px;
+    padding: 0 22px;
+
+}
+.mlabel{
+    position: relative;
+    color: #E5E5E5;
+    text-transform: capitalize;
+    font-size: 14px;
+    left: 200px;
+    top: -19px;
+}
+.felabel{
+    position: relative;
+    color: #E5E5E5;
+    text-transform: capitalize;
+    font-size: 14px;
+    left: 300px;
+    top: -18.5px;
+}
+.olabel{
+    position: relative;
+    color: #E5E5E5;
+    text-transform: capitalize;
+    font-size: 14px;
+    left: 400px;
+    top: -17.5px;
+}
+
+.birth{
+    position: relative;
+    left: 200px;
+    top: -19px;
+    padding: 0 22px;
+    line-height: 20px;
+}
+.birthlabel{
+    position: relative;
+    color: #E5E5E5;
+    font-size: 14px;
+    left: 35px;
+    top: 2px;
+
+}
+.email{
+    position: relative;
+    left: 200px;
+    top: -25px;
+    line-height: 30px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+}
+.password{
+    position: relative;
+    left: 228px;
+    top: -26px;
+    padding: 0 22px;
+    line-height: 30px;
+    border-radius: 6px;
+
+}
+.elabel{
+    position: relative;
+    color: #E5E5E5;
+    font-size: 14px;
+    left: -20px;
+    top: -1px;
+
+}
+.plabel{
+    position: relative;
+    color: #E5E5E5;
+    font-size: 14px;
+    left: 36px;
+    top: -1px;
+
+}
+.area{
+    position: relative;
+    left: 200px;
+    top: -27px;
+    line-height: 30px;
+    width:75px;
+    padding: 0 22px;
+    font-size: 16px;
+}
+.phone{
+    position: relative;
+    left: 150px;
+    top: -27px;
+    line-height: 30px;
+    width: min-content;
+    padding: 0 22px;
+    font-size: 16px;
+}
+.alabel{
+    position: relative;
+    color: #E5E5E5;
+    font-size: 14px;
+    left: 120px;
+    top: -5px;
+}
+.phlabel{
+    position: relative;
+    color: #E5E5E5;
+    font-size: 14px;
+    left: -67px;
+    top: -4px;
+
+}
+.subject{
+    position: relative;
+    left: 200px;
+    top: -27px;
+    line-height: 30px;
+    width: 350px;
+    padding: 0 22px;
+    font-size: 16px;
+    border-radius: 6px;
+}
+.slabel{
+    position: relative;
+    color: #E5E5E5;
+    font-size: 14px;
+    left: -155px;
+    top: -4px;
+}
+.message{
+    position: relative;
+    left: 200px;
+    top: -27px;
+    line-height: 30px;
+    width: 350px;
+    padding: 0 22px;
+    font-size: 16px;
+    border-radius: 6px;
+
+}
+.melabel{
+    position: relative;
+    color: #E5E5E5;
+    font-size: 14px;
+    left: -154px;
+    top: -9px;
+}
+.sbutton{
+    position: relative;
+    left: 300px;
+    top: 20px;
+}
+.rbutton{
+    position: relative;   
+    left: 450px;
+    top: -28px;
+    
+}
+button{
+    background-color: #3BAF9F;
+    display: block;
+    text-align: center;
+    border-radius: 12px;
+    border: 2px solid #366473;
+    padding: 14px 50px;
+    outline: none;
+    color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

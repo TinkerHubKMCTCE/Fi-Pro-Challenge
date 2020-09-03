@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>registration form</title>
+    </head>
+    <body bgcolor="pink">
+        <center>
+            <h1>REGISTRATION FORM</h1>
+            <form>
+                <fieldset>
+                <label>First Name : </label>
+                <input type="text" required="">
+                <label>Last Name :</label>
+                <input type="text" required=""><br><br>
+                <label>Age :</label>
+                <input type="number" min="0" required=""><br><br>
+                <label>Gender :</label>
+                <label for="male">Male</label>
+                <input id="male" name="gender" type="radio" required="">
+                <label for="female">Female</label>
+                <input id="female" name="gender" type="radio" required="">
+                <label for="other">Other</label>
+                <input id="other" name="gender" type="radio" required=""><br><br>
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required="">
+                <label for="pwd">Password :</label>
+                <input type="password" id="pwd" name="pwd" minlength="8" required=""><br><br>
+                <label>Qualification :</label>
+                <select required>
+                    <option value="">NONE</option>
+                    <option value="plustwo">Plus Two</option>
+                    <option value="ug">UG</option>
+                    <option value="pg">PG</option>
+                </select><br><br><br>
+                <label>Birthday :
+                <input type="date" value="" min="01-01-1950" max="" required=""><br><br>
+            </label>
+                <label>I agree with the terms and conditions</label>
+                <input type="checkbox" required=""><br><br>
+                <input type="submit" value="submit">
+    
+    
+            </fieldset>
+            </form>
+        </center>
+    </body>
+</html>
