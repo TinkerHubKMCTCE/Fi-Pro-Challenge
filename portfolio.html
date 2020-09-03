@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body class="body-container container-fluid">
+    <div class="homebg" id="home">
+        <div class="menu flex-center">
+            <span id="name">
+                <a href="#home">Roshni Joseph</a>
+            </span>
+            <ul>
+                <li><a href="#home">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#skill">skill</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </div>
+        <div class="herotext">
+            <h1 class="hey">Hey!! <br>I'm ROSHNI JOSEPH </h1>
+        </div>
+        <div class="social-icons">
+            <ul>
+                <li>
+                    <a href="https://github.com/Roshni-Joseph" target="_blank">
+                    <img src="githubimg.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://wa.me/918431459228" target="_blank">
+                    <img src="whatsapp.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://mail.google.com" target="_blank">
+                    <img src="gmail.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <img src="" alt="">
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="aboutbg screen-height" id="about">
+        <h1 class="abouth">about</h1>
+        <div class="about-description">
+            <div  class="description">
+                <h3 class="about">All about me!!</h3>
+                <h4 class="descrpt">I'm Roshni Joseph.<br>Currently , pursuing my B.tech at KMCT CEW.<br>I'm really passionate about Web Designing.<br>Every one deserves to thrive.<br>I am one to explore this world. </h4><br>
+                <h3 class="areu">ARE U ????</h3>
+            </div>
+            <img class="roshimg" src="roshni.jpg" height="400px" width="300px" alt="">
+        </div>
+    </div>
+    <div class="skillimg screen-height" id="skill">
+        <h1 class="abouth">skills</h1>
+        <ul class="skill">
+            <li class="python-mg"><img src="python.svg"><span>PYTHON</span></li>
+            <li class="html-mg"><img src="html5.svg"><span>HTML</span></li>
+            <li class="css-mg"><img src="css.svg"><span>CSS</span></li>
+            <li class="java-mg"><img src="java.svg"><span>JAVA</span></li>
+            <li class="js-mg"><img src="js.svg"><span>JAVA SCRIPT</span></li>
+            <li class="c-mg"><img src="programming.svg"><span>C++</span></li>
+            <li class="ps-mg"><img src="photoshop.svg"><span>PHOTO SHOP</span></li>
+        </ul>
+        <!-- <h1 class="project"><u>my project</u></h1>
+        <div class="prjt-sec">
+            <h3 class="botanica"> A simple Web Pabe for BOTANICA</h3>
+            <h5 class="weblink">
+                <a href="https://kkn2kuidwdoxp2sddciu3w-on.drv.tw/www.botanica.com/" target="_blank">click to view the Web Page</a>
+            </h5>
+        </div> -->
+    </div>
+    <div class="contactbg screen-height" id="contact">
+        <center>
+            <h1 class="registerh">CONTACT ME IF ANY QUERIES</h1>
+        <form>
+            <table cellspacing="20">
+                <tr>
+                    <td>
+                        FIRST NAME:
+                    </td>
+                    <td>
+                    <input type="text" placeholder="First Name" required name="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        LAST NAME:
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Name" required name="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        GENDER:
+                    </td>
+                    <td>
+                        <input type="radio" name="Gender" required>MALE
+                        <input type="radio" name="Gender" required>FEMALE
+                        <input type="radio" name="Gender" required>OTHER
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="start">DATE OF BIRTH:
+                    </td>
+                    <td>
+                        <input type="date" id="start" name="trip-start" value="." min="01-01-1970" max="" required >
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        EMAIL:
+                    </td>
+                    <td>
+                        <input type="email" placeholder="Email" required name="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        PHONE.NO:
+                    </td>
+                    <td>
+                        <select>
+                            <option>+91</option>
+                            <option>0</option>
+                            <option>987</option>
+                            <option>980</option>
+                            <option>981</option>
+                            <option>982</option>
+                            <option>983</option>
+                        </select>
+                        <input type="tel" placeholder="98********" required name="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        COMMENT:
+                    </td>
+                    <td>
+                    <textarea type="text" placeholder="Type your comment" required name=""></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <a href="login.html">
+                        <input class="submit" type="submit" value="Send" id="button">
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </form>
+        </center>
+    </div> 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script src="home.js"></script>
+</body>
+</html>

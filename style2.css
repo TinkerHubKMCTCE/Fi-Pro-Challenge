@@ -3,6 +3,26 @@
     margin:0px;
     box-sizing:border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
+.flex-center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#name{
+    text-align: left;
+    font-weight:bolder;
+    padding: 10px;
+    color:#fff;
+}
+#name a{
+    font-size: 25px;
+    color: #ffffff;
+    text-decoration: none;
+}
 .menu li{
     list-style-type:none;
 	text-transform:uppercase;
@@ -20,20 +40,28 @@
     border-bottom: 2px solid #fff;
 }
 .menu{
-    text-align: right;text-align: right;
+    text-align: right;
     background: #332f2f;
     padding: 15px;
     position: fixed;
     width: 100%;
     top: 0;
 }
+.screen-height{
+    min-height: 100vh;
+}
+.menu ul{
+     margin:0;
+}
 .homebg{
-	background:url("portfoliobg.jpg");
-	width:100%;
-	height:100vh;
-	background-repeat:no-repeat;
-    background-size:cover;
-    margin-top: 68px;
+	background: url(portfoliobg.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    margin-top: 80px;
+    background-attachment: fixed;
+    background-position: 0px 75px;
+    background-size: 100%;
 }
 .herotext{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -51,7 +79,22 @@
 }
 .social-icons ul li{
     display: inline-block;
-
+}
+.skill{
+    display: flex;
+    padding-top: 90px;
+    width: 825px;
+    margin: 0 auto;
+}
+}
+.skill li span{
+    display: block;    
+}
+.skill li img{
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    text-align: center;
 }
 .social-icons ul li img{
     display: inline-block;
@@ -71,7 +114,7 @@
     color: darkslategray;
     text-transform:uppercase;
     border-bottom: 2px solid darkslategray;
-    padding-top: 60px;
+    padding-top: 100px;
     font-size: 40px;
     margin-bottom: 20px; ;
     display: inline-block;
@@ -88,21 +131,26 @@
     text-transform:capitalize;
     font-size: 30px;
     padding-bottom: 20px;
+    padding-top: 50px;
 }
 .description{
     display: inline-block;
     vertical-align: top;
     text-align: left;
-    padding-left: 100px;
     width: 500px;
 }
+.descrpt{
+    margin-bottom: 2rem;
+    font-weight: 400;
+    line-height: 1.4;
+}
 .areu{
-    font-size: 30px;
+    font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .roshimg{
     display: inline-block;
-    margin-left: 200px;
+    margin-left: 50px;
 }
 .aboutbg{
     background: -webkit-linear-gradient(to right, #eca72a, #e1eec3);
@@ -114,10 +162,6 @@
     background: linear-gradient(to right, #60878a, #e1eec3);
     text-align: center;
 }
-.skill{
-    padding-top: 40px;
-}
-
 .skill li{
     list-style-type:none;
 	text-transform:uppercase;
@@ -148,20 +192,23 @@
 	height:100vh;
 	background-repeat:no-repeat;
     background-size:cover;
-    padding-top: 200px;
+    padding-top: 100px;
 }
 .registerh{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(2, 20, 43);
+    color: #ffffff;
     text-transform:capitalize;
     font-size: 40px;
     padding-bottom: 20px;
 }
 .submit{
-	background-color: lightcoral;
+	background-color: #29416d;
 	border-radius:3px;
     display:inline-block;
     padding: 5px;
+    color: #ffffff;
+    width: 150px;
+    border-radius: 5px;
 }
 .weblink{
     text-decoration: none;
@@ -176,4 +223,51 @@
     text-align: left;
     padding-left: 150px;
 }
+.body-container.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+}
+input[type="text"], input[type="date"], input[type="password"] ,input[type="email"],input[type="tel"] , textarea, select  {
+    height: 35px;
+    width: 200px; 
+    border:1px solid #f2f2f2;
+    border-radius:5px ;
+}
+input[type="tel"]{
+    width: 170px !important;
+}
+select{
+    width: 25px !important;
+}
+table tr td{
+    padding: 7px 5px;
+    color:#ffffff;
+    font-weight: bold;
+}
 
+
+
+@media only screen and (max-width:600px){
+    .description,.skill{
+        width: 100%;
+    }
+    .skill{
+        flex-wrap: wrap;
+    }
+    .menu a{
+        font-size: 12px;
+    }
+    #name a{
+        font-size: 14px;
+    }
+    .aboutbg {
+        padding: 20px;
+    }
+    .roshimg{
+        margin: 0 auto;
+    }
+    .herotext,.social-icons{
+        padding-left: 20px !important;
+    }
+
+}
