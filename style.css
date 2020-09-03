@@ -1,71 +1,158 @@
-body {
-    background-color: rgb(155, 35, 35);
+*
+{
+    margin: 0;
+    padding: 0;
 }
-
-.main-body {
-    width: 400px;
-    height: 600px;
-    background: white;
-    margin-top: 2.5%;
-    border-radius: 7%;
-    border-color: black;
-    padding-top: 10px;
-    font-family: 'Alata', sans-serif;
+/*--NavigationBar*/
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
-
-#screen {
-    margin-top: 15px;
-    width: 70%;
+.navbar-brand
+{
     height: 40px;
-    pointer-events: none;
-    border-color: crimson;
-    background-color: rgb(212, 142, 212);
+    padding-left: 30px;
 }
-.btn {
-    width: 60px;
-    height: 60px;
-    margin-left: 30px;
-    margin-top: 30px;
-    background-color: rgb(112, 111, 40);
-    border-radius: 50%;
+.navbar-nav li
+{
+    padding: 0 10px;
 }
-.clr {
-    width: 60px;
-    height: 60px;
-    margin-left: 315px;
-    margin-top: 30px;
-    background-color: rgb(255, 0, 0);
-    border-radius: 50%;
+.navbar-nav li a
+{
+    float: right;
+    text-align: left;
 }
-.add {
-    width: 60px;
-    height: 60px;
-    margin-left: 30px;
-    margin-top: 30px;
-    background-color: rgb(103, 216, 10);
-    border-radius: 50%;
+#nav-bar ul li a:hover
+{
+    color: #007bff!important;
 }
-.neg {
-    width: 60px;
-    height: 60px;
-    margin-left: 30px;
-    margin-top: 30px;
-    background-color: rgb(12, 209, 183);
-    border-radius: 50%;
+.navbar
+{
+    background: rgb(255, 255, 255);
 }
-.mul {
-    width: 60px;
-    height: 60px;
-    margin-left: 30px;
-    margin-top: 30px;
-    background-color: rgb(230, 23, 195);
-    border-radius: 50%;
+.navbar-toggler
+{
+    border: none!important;
 }
-.by {
-    width: 60px;
-    height: 60px;
-    margin-left: 30px;
-    margin-top: 30px;
-    background-color: rgb(82, 12, 211);
-    border-radius: 50%;
+.nav-link
+{
+    color: #555!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/*--Slider*/
+#slider
+{
+    width: 100%;
+}
+.carousel-caption
+{
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial!important;
+}
+.carousel-caption h5
+{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+
+/*--About*/
+#about
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+}
+.about-content
+{
+    padding-top: 20px;
+}
+.skills-bar p
+{
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+.progress-bar
+{
+    border-radius: 16px;
+}
+.progress
+{
+    border-radius: 16px!important;
+    margin-bottom: 20px;
+}
+
+/*--Team--*/
+#team
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+}
+h1
+{
+    text-align: center;
+    color: #555!important;
+    padding-bottom: 10px;
+}
+h1::after
+{
+    content: '';
+    background: #007bff;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+/*--Get in Touch--*/
+#contact
+{
+    background: #efefef;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #777;
+}
+.contact-form
+{
+    padding: 15px;
+}
+.form-conrol
+{
+    border-radius: o!important;
+    border: none!important;
+    width: 475px;
+}
+::placeholder
+{
+    color: #999!important;
+}
+.follow
+{
+    background: #fff;
+    padding: 10px;
+    margin: 15px;
+}
+#slogo
+{
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+#logo
+{
+    padding-left: 60px;
+    
+}
+
+/*---Footer---*/
+#footer
+{
+    background: #333;
+    color: #fff;
+    padding: 12px;
 }
