@@ -1,0 +1,145 @@
+head {
+    display: none;
+}
+
+
+.ftco-navbar-light {
+    background: black !important;
+    left: 0;
+    right: 0;
+    z-index: 3;
+}
+
+.navbar {
+    position: relative;
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+     align-items: center;
+    -webkit-box-pack: justify;
+     justify-content: space-between;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    width: auto;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+ .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+ 
+  .fa-instagram {
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+    color: white;
+  }
+  .fa-github {
+    background: #000000;
+    color: white;
+  }
+.hero-wrap {
+    width: 100%;
+    height: 100%;
+    position: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hero-wrap .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    opacity: .1;
+    width: 50%;
+    background: #3e64ff;
+}
+.container {
+    max-width: 540px;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.align-items-center {
+    -webkit-box-align: center !important;
+    align-items: center !important;
+}
+
+.justify-content-center {
+    -webkit-box-pack: center !important;
+    justify-content: center !important;
+}
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.subheading{
+    color: red;
+    font-weight:900;
+    font-size: larger;
+    font-family: sans-serif;
+}
+.img, .blog-img, .user-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.ftco-no-pb {
+    padding-bottom: 0 !important;
+}
+
+.ftco-section {
+    padding: 7em 0;
+    position: relative;
+    display: block;
+}
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+.ftco-no-pb {
+    padding-bottom: 0 !important;
+}
+.ftco-section {
+    padding: 6em 0;
+}
+.ftco-section {
+    padding: 7em 0;
+    position: relative;
+}
