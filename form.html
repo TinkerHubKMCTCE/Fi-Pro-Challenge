@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> REGISTRATION FORM </title>
+</head>
+<body bgcolor="coralwhite">
+    <center>
+    <h1><font color="black"><u>REGISTRATION FORM</u></font></h1><br>
+    <h2>Fill up your informations in the registration form in order to access our website </h2>
+    <form>
+        <label for="FIRST NAME">FIRST NAME:</label>
+        <input id="FIRST NAME" type="text" name="FIRST NAME" place holder="FIRST NAME" required=""><br>
+        <label for="LAST NAME">LAST NAME:</label>
+        <input id="LAST NAME" type="text" name="LAST NAME" place holder="LAST NAME" required=""><br>
+    <div>
+        <label for="Male">MALE</label>
+        <input type="radio" name="Gender" id="Male" required="">
+        <label for="Female">FEMALE</label>
+        <input type="radio" name="Gender" id="Female" required="">
+        <label for="Others">OTHERS</label>
+        <input type="radio" name="Gender" id="Others" required="">
+    </div>
+    <div>
+        <label>EMAIL</label>
+        <input type="email" required ><br><br>
+    </div>
+    <div>
+        <label for="pass">PASSWORD( Minimum 10 characters):</label>
+        <input type="password" id="pass" name="password" minlength="10" required><br><br>
+    </div>
+    <div>
+        <label for="start" >BIRTHDAY:
+        <input type="date" id="start" name="trip-start" value="." min="01-01-1980" max="">
+        </label><br><br>
+    </div>
+    <div>
+        <p>I agree with the terms and conditions
+            <input type="checkbox" required=""><br>
+        </p>
+        <a href=""> CLICK HERE TO SEE THE TERMS AND CONDITIONS</a><br><br>
+    </div>
+    <input type="submit" value="submit">
+    <input type="reset" value="reset">
+    </form>
+    </center>
+</body>
+</html>
