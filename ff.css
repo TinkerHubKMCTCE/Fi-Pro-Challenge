@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@1,600&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(58, 5, 46);
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+#main {
+  
+    width: 100%;
+    height:100vh ;
+    box-sizing: border-box;
+
+      background: rgb(175, 127, 207);
+      animation: mymove1 5s infinite;
+    }
+    
+    @keyframes mymove1 {
+      50% {background-color: rgb(58, 5, 46) ;}
+    }
+nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 50px;
+    background-color: #f2f2f3;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.05);
+    z-index: 1;
+}
+.menu
+{
+    display: flex;
+}
+.menu li a{
+    padding: 10px 15px;
+    color: darkslategrey;
+}
+.menu li a:hover{
+    background-color: dimgrey;
+    color: #ffffff;
+
+    transition: all ease 0.5s;
+}
+.name
+{
+    width: 500px;
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    transform: translate(-20%,-50%);
+}
+.name p:nth-child(1),.name 
+
+{
+    color: rgb(107, 104, 104);
+}
+.mydiv {
+    margin-left: 50%;
+    margin-right: 50%;
+    width: 500px;
+    height: 100px;
+    animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  50% {font-size: 40px;}
+}
+#g{
+    color: rgb(244, 239, 248);
+    font-family: 'Grandstander', cursive;
+    
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 45px;
+}
+#me{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 5% 0px 5%;
+}
+.about{
+    width: 50%;
+}
+ #heading{
+     font-size: 5rem;
+     font-weight: 400;
+    color: rgb(237, 242, 245);
+    padding: 0px;
+    margin: 0px;
+}
+p{
+    color: floralwhite;
+    font-size: 1.2rem;
+
+}
+.con
+{
+    width: 100%;
+}
+#contact{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+form{
+    display: flex;
+    width: 70%;
+    height: 80vh;
+    background-color: rgb(9, 25, 49);
+    box-shadow: 2px 12px 20px rgba(0,0,0,0.05);
+    border: 1px solid rgba(225,225,225,0.04);
+}
+.lef{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.hed{
+    color: #ffffff;
+    font-size: 4rem;
+    letter-spacing: 2px;
+    font-weight: 450;
+
+}
+.n , .e , .msg{
+    display: flex;
+    flex-direction: column;
+}
+.n input, .e input{
+    height: 40px;
+    width: 250px;
+
+
+}
+.on{
+    padding: 20px;
+}
+  .b1,.b3,.b5{
+    
+    border-radius: 16px;
+    background-color: rgb(190, 144, 228);
+    
+}
+.b2
+{
+    border-radius: 16px;
+    width: 40%;
+    padding:0.1em 16px;
+    background-color:   rgb(8, 50, 190);
+
+    text-align: center;
+    color: seashell;
+}
+.b4{
+
+    border-radius: 16px;
+    width: 80%;
+    padding:0.1em 16px;
+    background-color:  rgb(8, 50, 190); 
+
+    text-align: center;
+    color: seashell;
+}
+.b6{
+
+    border-radius: 16px;
+    width: 30%;
+    padding:0.1em 16px;
+    background-color:  rgb(8, 50, 190);
+
+    text-align: center;
+    color: seashell;}
+    h2{
+        color: #ffffff;
+        
+    }
+    #con
+    {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        height: 35vh;
+    }
+    i.fa{
+        padding: 20px;
+        width: 50px;
+        font-size: 40px;
+        color: ghostwhite;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 10px;
+        border-radius: 10px;
+    }
+    i.fa:hover{
+        opacity: 0.7;
+    }
+.fa-github-square{
+    background: black;
+}
+.fa-linkedin-square{
+    background: dodgerblue;
+}
+#hed1{
+    color: ghostwhite;
+}
+.account
+{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 5% 0px 5%;
+
+}
+.op{
+    padding: 30px;
+   }
+   #p1{
+    
+    color: rgb(242, 241, 245);
+    text-align: center;
+}
