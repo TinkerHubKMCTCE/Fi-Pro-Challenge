@@ -1,0 +1,24 @@
+.calc{
+    width: 400px;
+    height: 600px;
+    background: pink;
+    margin-left: 25%;
+    float: none;
+}
+#screen{
+    width: 80%;
+    margin-left: 36px;
+    height: 40px;
+    margin-top: 30px;
+    pointer-events: none;
+}
+.btn{
+    width: 60px;
+    height: 45px;
+    margin-left: 30px;
+    margin-top: 30px;
+    background: bisque;
+}
+.main{
+    background: linear-gradient(to bottom, #009999 0%, #00ff99 100%);
+}
