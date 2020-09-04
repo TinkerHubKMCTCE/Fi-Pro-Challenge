@@ -1,0 +1,31 @@
+
+.smed i{
+    font-size: 20px;
+    color:black;
+}
+.smed i:hover{
+    color:grey;
+}
+.about{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.contact{
+   font-family: sans-serif;
+}
+.navbar li{
+    border:2px solid transparent;
+}
+.navbar li:hover{
+    border:0.5px solid black;
+}
+.img img{
+    border-radius: 50%;
+    border:1px solid white;
+    margin-top:20px;
+}
+.img img:hover{
+    border:1px solid black
+}
+
