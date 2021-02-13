@@ -1,0 +1,26 @@
+#screen{
+    width: 80%;
+    margin-left: 35px;
+    height: 50px;
+    margin-top: 1px;
+    pointer-events: none;
+}
+.cas{
+
+    
+    margin-left: 280px;
+}
+.btn{
+    width: 60px;
+    height: 45px;
+    margin-left: 30px;
+    margin-top: 30px;
+    background: rgb(205, 236, 148);
+}
+.calc{
+    width: 400px;
+    height: 500px;
+    background: rgb(155, 195, 233);
+    border-radius: 20px;
+    margin: auto;
+}
