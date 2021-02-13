@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+     width: 100%;
+  background-color: rgba(23,23,23, 0.15);
+  padding: 20px;
+  position: absolute;
+  top: 0;
+}
+header .container{
+    display:flex;
+    justify-content: space-between;
+}    
+header a{
+    text-decoration: none;
+    margin-right: 100px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color:rgb(30, 6, 246);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+
+    
+}
+.banner-container{
+    width: 100%;
+    height: 100%;
+    background-image:linear-gradient(rgba(255,255,255,0.719),rgb(245, 6, 6)),url("https://scontent.fcok1-1.fna.fbcdn.net/v/t1.0-9/117722303_1893612220780796_6119914090029991631_o.jpg?_nc_cat=106&_nc_sid=09cbfe&_nc_ohc=LkxsjPpQ4rgAX8MFpjq&_nc_oc=AQm48mnjKIcueu-5IBeWIlCcfRRcDL46pMRoIDzBLST-7JMS00Amrilidf0f4vhK4qkzKHHnArEd1p1kVslrK5mM&_nc_ht=scontent.fcok1-1.fna&oh=e6dfa9224006e91d39e3b3128b698943&oe=5F63B0ED");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+     display:flex;
+
+}
+ button{
+    text-decoration: none;
+        color:orange;
+}
+.banner-container .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.logo
+{
+    width: 100%;
+    height: 100%;
+    background-image:linear-gradient(rgba(255,255,255,0.719),rgb(245, 6, 6)),url("https://scontent.fcok1-1.fna.fbcdn.net/v/t1.0-9/117722303_1893612220780796_6119914090029991631_o.jpg?_nc_cat=106&_nc_sid=09cbfe&_nc_ohc=LkxsjPpQ4rgAX8MFpjq&_nc_oc=AQm48mnjKIcueu-5IBeWIlCcfRRcDL46pMRoIDzBLST-7JMS00Amrilidf0f4vhK4qkzKHHnArEd1p1kVslrK5mM&_nc_ht=scontent.fcok1-1.fna&oh=e6dfa9224006e91d39e3b3128b698943&oe=5F63B0ED");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+     display:flex;
+}
+.left-section h1{
+    color:whitesmoke;
+    font-size: 100px;
+    font-style:italic;
+    margin-right: 100%;
+}
+.left-section p{
+
+    color:rgb(238, 255, 0);
+    font-size: 20px;
+    font-style: oblique;
+    
+}
+.logo h2{
+
+    color:rgba(255,255,255,0.719);
+    font-size: 20px;
+    font-style: oblique;
+
+}
+
