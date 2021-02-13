@@ -1,0 +1,336 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.nav{
+
+    width: 350px;
+    height: auto;
+    position: absolute;
+    top: 20%;
+    left:0 ;  
+}
+
+.nav a{
+    text-decoration: none;
+    font-size: 38px;
+    font-family:verdana;
+    font-weight:bold;
+    display: inline-block;
+    margin:5px 0 ;
+    height: 90px;
+    background-color:black;
+    color:white;
+    text-align: center;
+    transition: 400ms;
+}
+a.active, .nav a:hover{
+    background-color:white;
+    color:black;
+    width: 100%;
+}
+.a{
+    width: 95%;
+   
+}
+.b{
+    width: 85%;
+   
+}
+.c{
+    width: 80%;
+   
+}
+.d{
+    width: 90%;
+   
+}
+.background{
+   background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("lap.jpg");
+   width: 100%;
+   height: 100vh;
+   background-repeat: repeat;
+   
+  
+}
+.head-content{
+    
+    text-align: center;
+}
+.head-content img{
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-top: 73px;
+    margin-left: 20%;
+}
+.head-content img:hover{
+    border: 2px white;
+}
+.nam{
+    width: 900px;
+    height: auto;
+    position: absolute;
+    bottom: 10%;
+    right: 0;
+}
+.nam a{
+    text-decoration: none;
+    font-size: 85px;
+    background-color: transparent;
+    color: orangered;
+    font-weight: bold;
+    font-family: verdana;
+    margin: 5px 0;
+    height: 95px;
+    text-align: center;
+
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: fadeInLeft; 
+    animation-duration: 2s; 
+  }
+.about-section h2{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size:50px;
+    font-family: sans-serif;
+    text-decoration: none;
+    
+    margin: 0 0.5rem;
+    animation: zoomIn; 
+    animation-duration: 10s;
+    font-weight: bold; 
+}
+.about-section p{
+    font-size: 27px;
+    font-family: robotto;
+    width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 15px;
+    border: 2px solid grey;
+    background-image: url("sachu.jpg");
+    color: black;
+    animation: zoomIn; 
+    animation-duration: 10s;
+   
+}
+.skills-section{
+    width: 100%;
+    height: 400px;
+    background-image: url("sachu.jpg");
+    text-align: center;
+}
+.skills-section h2{
+    text-decoration: none;
+    font-size: 50px;
+    font-family: sans-serif;
+  
+    background-color: black;
+    color: white;
+    margin: 0 0.5rem;
+    animation: zoomIn; 
+    animation-duration: 13s;
+    font-weight: bold; 
+}
+.skills-section li{
+    list-style: none;
+    margin: 20px 0;
+   color: maroon;
+   font-weight: bold;
+    
+}
+.bar{
+    background:black;
+    display:block ;
+    height: 4px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #2187e7b3;
+}
+.bar span{
+    height: 2px;
+    float: left;
+    background: #2187e7b3;
+}
+.html{
+    width: 85%;
+    animation: html 12s;
+}
+.css{
+    width: 65%;
+    animation: css 12.1s;
+}
+.c1{
+    width:80% ;
+    animation: c1 12.2s;
+}
+.javascript{
+    width:50% ;
+    animation: javascript 12.3s;
+}
+@keyframes html {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 85%;
+    }
+ }
+ @keyframes css {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 65%;
+    }
+ }
+ @keyframes c1 {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+ }
+ @keyframes javascript {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+ }
+
+.skills-section img:hover{
+    border: 2px solid black;
+    transition: 0.3s;
+}
+.contact-section{
+    height: 56vh;
+    background-image: url("sachu.jpg");
+    text-align: center;
+}
+.contact-section h1{
+    font-size: 50px;
+   font-weight: bold;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    margin: 0 0.5rem;
+    animation: zoomIn; 
+    animation-duration: 23s;
+   
+}
+input{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 0;
+   background-image: url("sachu.jpg");
+    color:black;
+   
+}
+textarea{
+    border: 0;
+    border-radius: 10px;
+    height: 100px;
+    width: 500px;
+    background-image: url("sachu.jpg");
+    color:black;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+.inp-name, .inp-mail{
+    height: 50px;
+    width: 500px;
+}
+.inp-msg{
+    height: 100px;
+    width: 500px;
+}
+input[type=text]{
+    text-align: center;
+    font-size: 20px;
+}
+.inp-btn{
+    width: 500px;
+    background: tomato;
+    font-size: 20px;
+    height: 50px;
+}
+.inp-btn:hover{
+    background: green;
+    transition: 0.3s;
+}
+.copyright{
+    background: white;
+    font-size: 20px;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    color:  black;
+}
+.connect-section{
+    width: 100%;
+    height: 400px;
+    background-image: url("sachu.jpg");
+    text-align: center;
+}
+.connect-section h2{
+    text-decoration: none;
+    font-size: 50px;
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+    margin: 0 0.5rem;
+    animation: zoomIn; 
+    animation-duration: 25s;
+    font-weight: bold;
+}
+.connect-section img{
+    height: 50px;
+    width: 50px;
+    border: 2px solid transparent;
+   
+}
+.connect-section img:hover{
+    border: 2px solid black;
+    transition: 0.3s;
+}
+
+.quote-section p{
+    
+    height: 100px;
+    font-size: 28px;
+    font-family: robotto;
+    width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 15px;
+    border: 2px solid grey;
+    background-color:black;
+    color: grey;
+    text-decoration: none;
+    animation: backInDown;    ; 
+    animation-duration: 28s;
+    font-weight: bold;
+}
+.con-section p{
+    text-decoration: none;
+    font-size: 90px;
+    font-family: robotto;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    margin: 0 0.5rem;
+    animation: lightSpeedInRight; 
+    animation-duration: 39s;
+    font-weight: bold;
+}
