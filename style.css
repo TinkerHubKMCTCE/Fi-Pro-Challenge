@@ -1,0 +1,124 @@
+.bigbox{
+    width:100%;
+    height:500px;
+    background-color:background: #24C6DC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #514A9D, #24C6DC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #514A9D, #24C6DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     ;
+    padding:10px;
+
+}
+.image1{
+    margin-left: 10%;
+    margin-top: 5%;
+
+}
+.sbox1{
+    width:60%;
+    height:100%;
+    background-color: white;
+    float:left;
+}
+.text1{
+    padding-left: 20%;
+    padding-top: 10%;
+    color: red;
+}
+.text2{
+    padding-left: 20%;
+    padding-top:0%;
+}
+.text3{
+    color:silver;
+    padding-left: 20%;
+}
+.text4{
+    padding-left: 20%;
+    padding-top:0%;
+}
+.sbox2{
+    width:60%;
+    height:100%;
+    background-color:background: #e53935;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #e35d5b, #e53935);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #e35d5b, #e53935); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    ;
+    float:right; 
+}
+.text5{
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    color: white;
+}
+p{
+    margin:20px;
+    padding: 40px;
+    font-family: 'Fira Mono', monospace;
+    color: white;
+}
+.sbox3{
+    width:60%;
+    height:110%;
+    background-color: green;
+    float:left;
+}
+.text6{
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    color:white;
+}
+.p1{
+    color:white; 
+}
+.p2{
+    color:white;
+}
+.p3{
+    color:white;
+}
+.p4{
+    color:white;
+}
+.sbox4{
+    width:60%;
+    height:100%;
+    background-color:background: #e53935;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #e35d5b, #e53935);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #e35d5b, #e53935); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    ;
+    float:right; 
+}
+.text7{
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    color: white;
+}
+
+.sbox5{
+    width:60%;
+    height:110%;
+    background-color: green;
+    float:left;
+}
+.text8{
+    padding: 30px;
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    color: white;
+}
+.required1{
+    font-family: 'Fira Mono', monospace;
+    color: white;
+}
+.required2{
+    font-family: 'Fira Mono', monospace;
+    color: white;
+}
+.required3{
+    font-family: 'Fira Mono', monospace;
+    color: white;
+}
+.required4{
+    font-family: 'Fira Mono', monospace;
+    color: white;
+}
